@@ -5,48 +5,86 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background: #fff;
+  background-color: #ffffff;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ol,
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 button {
   cursor: pointer;
+  border: none;
+  font-family: inherit;
 }
+
 address {
   font-style: normal;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
-  line-height: 1.33333;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
+
 .logo-accent {
   color: #4d5ae5;
 }
-.logo-studio {
+
+.header .logo-studio {
+  color: #2e2f42;
+}
+
+.footer .logo-studio {
   color: #f4f4fd;
-}
-.contacts {
-  font-style: normal;
-}
-.contacts-list {
-}
-.contacts-item {
-}
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
-}
-.contacts-link {
-  color: #434455;
 }
